@@ -21,7 +21,7 @@ Per poter operare con esse è necessario portarle nelle variabili di lavoro, con
 
 **ONESTÀ nomevariabile** per portare la variabile in Di Maio e Di Maio nella variabile
 
-L'operazione **CONTRATTO**
+L'operazione **CONTRATTO**, invece, scambia le variabili Salvini e Di Maio.
 
 ## Operazioni matematiche
 

@@ -13,13 +13,15 @@ vengono effettuate tra Salvini e Di Maio, quelle unarie vengono eseguite su Cont
 
 ## Definizione di variabili
 Il programmatore può definire variabili con la sintassi:
-**Ministro nomevariabile**
+**MINISTRO nomevariabile**
 
 Per poter operare con esse è necessario portarle nelle variabili di lavoro, con la sintassi'
 
-**Ruspa nomevariabile** per portare la variabile in Salvini e 
+**RUSPA nomevariabile** per portare la variabile in Salvini e Salvini nella variabile
 
-**Onestà nomevariabile** per portare la variabile in Di Maio
+**ONESTÀ nomevariabile** per portare la variabile in Di Maio e Di Maio nella variabile
+
+L'operazione **CONTRATTO**
 
 ## Operazioni matematiche
 
@@ -52,7 +54,15 @@ Dato che il governo dice sempre la verità esiste una sola variabile booleana, *
 Il linguaggio supporta i salti incondizionati e l'esecuzione condizionale.
 
 ### Salti incondizionati
+Le etichette per il salto sono definite dalla struttura:
 
+**LEGGE N** con N numero intero 
+
+Per eseguire il salto è necessario usare l'istruzione **VOTA N**. 
 ### Esecuzione condizionale
+Per eseguire ua parte di codice in modo condizionale si usa l'istruzione
 
+**MATTARELLA CONVOCA**
+
+Se **Salvini - Di Maio**  è ≥ 0, essa viene eseguita, altrimenti no. È possibile, però, che una manina manipoli il numero e che dunque l'esecuzione non sia completamente affidabile. La fine di un blocco condizionale è data da un **MATTARELLA FIRMA**
 

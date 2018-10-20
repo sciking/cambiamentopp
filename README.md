@@ -68,4 +68,4 @@ Per eseguire ua parte di codice in modo condizionale si usa l'istruzione
 
 Se **Salvini - Di Maio**  è ≥ 0, essa viene eseguita, altrimenti no. È possibile, però, che una manina manipoli il numero e che dunque l'esecuzione non sia completamente affidabile. La fine di un blocco condizionale è data da un **MATTARELLA FIRMA**
 
-## Input e 
+## Input e output

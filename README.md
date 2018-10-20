@@ -15,7 +15,7 @@ vengono effettuate tra Salvini e Di Maio, quelle unarie vengono eseguite su Cont
 Il programmatore può definire variabili con la sintassi:
 **Ministro nomevariabile**
 
-Per poter operare con esse, qualora siano numeriche, è necessario portarle nelle variabili di lavoro, con la sintassi'
+Per poter operare con esse è necessario portarle nelle variabili di lavoro, con la sintassi'
 
 **Ruspa nomevariabile** per portare la variabile in Salvini e 
 
@@ -26,12 +26,12 @@ Per poter operare con esse, qualora siano numeriche, è necessario portarle nell
 Il linguaggio supporta addizione, sottrazione, moltiplicazione, divisione, radice di N ed elevamento ad N.
 
 ### Addizione
-
+Con il comando **CENSIMENTO** il linguaggio eseguirà l'operazione **Conte = Salvini + Di Maio**
 ### Sottrazione
-
+Con il comando **ROSICONI** il linguaggio eseguirà l'operazione **Conte = Salvini - Di Maio**
 ### Moltiplicazione
-
-### Divisione
+Con il comando **FLAT TAX** il linguaggio eseguirà
+### DivisioneC
 
 ### Radice di N
 

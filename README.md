@@ -50,6 +50,8 @@ Con il comando **BORGHI** si ottiene **Conte = Di Maio^2-4(Salvini * Conte)**. P
 ### Logica booleana
 Dato che il governo dice sempre la verità esiste una sola variabile booleana, **CASALEGGIO**, perennemente settata a 1. Provare a modificarla tramite la funzione **ALLORAILPD** porterà ad un errore di logica.
 
+## Operatori matematici secondari
+
 ## Salti
 Il linguaggio supporta i salti incondizionati e l'esecuzione condizionale.
 
@@ -66,3 +68,4 @@ Per eseguire ua parte di codice in modo condizionale si usa l'istruzione
 
 Se **Salvini - Di Maio**  è ≥ 0, essa viene eseguita, altrimenti no. È possibile, però, che una manina manipoli il numero e che dunque l'esecuzione non sia completamente affidabile. La fine di un blocco condizionale è data da un **MATTARELLA FIRMA**
 
+## Input e 

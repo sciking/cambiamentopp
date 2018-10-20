@@ -43,4 +43,16 @@ Con il comando **NEGHER** il linguaggio eseguirà **Conte == Salvini^Di Maio**
 Il linguaggio supporta solo due funzioni di matematica avanzata, ossia il determinante e la logica booleana.
 
 ### Determinante
-Con il comando **BORGHI** si ottiene **Conte = Di Maio^2-4(Salvini* Conte)
+Con il comando **BORGHI** si ottiene **Conte = Di Maio^2-4(Salvini * Conte)**. Per ragioni etiche l'interprete introduce un errore casuale nell'operazione, dato il rischio che venga usata in una disequazione, cosa disapprovata dal governo del cambiamento.
+
+### Logica booleana
+Dato che il governo dice sempre la verità esiste una sola variabile booleana, **CASALEGGIO**, perennemente settata a 1. Provare a modificarla tramite la funzione **ALLORAILPD** porterà ad un errore di logica.
+
+## Salti
+Il linguaggio supporta i salti incondizionati e l'esecuzione condizionale.
+
+### Salti incondizionati
+
+### Esecuzione condizionale
+
+

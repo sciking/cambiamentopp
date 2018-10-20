@@ -30,9 +30,10 @@ Con il comando **CENSIMENTO** il linguaggio eseguirà l'operazione **Conte = Sal
 ### Sottrazione
 Con il comando **ROSICONI** il linguaggio eseguirà l'operazione **Conte = Salvini - Di Maio**
 ### Moltiplicazione
-Con il comando **FLAT TAX** il linguaggio eseguirà
-### DivisioneC
-
+Con il comando **FLAT TAX** il linguaggio eseguirà **Conte = Salvini * Di Maio**
+### Divisione
+Con il comando **FORNERO** il linguaggio eseguirà **Conte = Salvini/Di Maio**
 ### Radice di N
-
+Con il comando **LEVA** il linguaggio eseguirà **Conte == Di Maio√Salvini**
 ### Elevamento a N
+Con il comando **NEGHER** il linguaggio eseguirà **Conte == Salvini^Di Maio**

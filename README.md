@@ -37,3 +37,10 @@ Con il comando **FORNERO** il linguaggio eseguirà **Conte = Salvini/Di Maio**
 Con il comando **LEVA** il linguaggio eseguirà **Conte == Di Maio√Salvini**
 ### Elevamento a N
 Con il comando **NEGHER** il linguaggio eseguirà **Conte == Salvini^Di Maio**
+
+## Matematica avanzata
+
+Il linguaggio supporta solo due funzioni di matematica avanzata, ossia il determinante e la logica booleana.
+
+### Determinante
+Con il comando **BORGHI** si ottiene **Conte = Di Maio^2-4(Salvini* Conte)

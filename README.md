@@ -13,6 +13,9 @@ vengono effettuate tra Salvini e Di Maio, quelle unarie vengono eseguite su Cont
 
 Il codice viene eseguito in modo sequenziale da un **Contratto di Governo**, internamente definito come **CG**: Con le opportune istruzioni si puà mutare.
 
+### Da Conte al lavoro
+Per lavorare con i dati in Conte si possono mettere in Salvini e Di Maio con l'istruzione **VICEPREMIER nome_ministro**
+
 ## I registri del linguaggio
 Il linguaggio offre built-in otto GPR così denominati:
 * R0: Costa

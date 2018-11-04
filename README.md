@@ -88,7 +88,7 @@ Solo in Salvini con:
 
 ### Output
 
-Per stampare il valore di Conte si scrive **CASALINO**, con **POPULISTA** si stampa il valore di Salvini, con **CASTELLI** si stampa Di Maio.
+Per stampare il valore di Conte si scrive **CASALINO**, con **POPULISTA** si stampa il valore di Salvini, con **BLOG** si stampa Di Maio.
 
 ## Stringhe in R1
 

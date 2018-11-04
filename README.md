@@ -67,10 +67,10 @@ Dato che il governo dice sempre la verità esiste una sola variabile booleana, *
 Il linguaggio supporta i salti incondizionati e l'esecuzione condizionale.
 
 ### Salti incondizionati
-Il salto incondizionato viene eseguito con l'istruzione **VOTA numero_riga**, che modifica dunque il Governo del Cambiamento.
+Il salto incondizionato viene eseguito con l'istruzione **VOTA / numero_riga**, con / interruzione di riga, che modifica dunque il Governo del Cambiamento.
 
 ### Esecuzione condizionale
-L'operazione **MATTARELLA** aumenta il GC di uno se **Salvini - Di Maio** è minore o uguale a zero, quindi l'istruzione seguente viene eseguita se e solo se Salvini-Di Maio è maggiore di zero.
+L'operazione **MATTARELLA** aumenta il GC di uno se **Conte** è minore o uguale a zero, quindi l'istruzione seguente viene eseguita se e solo se Conte è maggiore di zero.
 
 ## Input e output
 ### Input
@@ -95,6 +95,7 @@ Per stampare il valore di Conte si scrive **CASALINO**, con **POPULISTA** si sta
 Si può usare R1 come registro per delle stringhe da stampare a video. L'inserimento avviene con un'istruzione su due righe ossia:
 
 **BUONGIORNO AMICI**
+
 **stringa da caricare, senza apici**
 
 Per effettuare la stampa si scrive **CIAO AMICI**.

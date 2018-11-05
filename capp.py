@@ -6,6 +6,9 @@ def chomp(x):
 	if x.endswith("\n"):
 		return x[:-1]
 	return x
+try:
+	if sys.argv[2] == "debug":
+		debug = 1
 #Dichiarazioni
 Conte = 0
 Di_Maio = 0
@@ -38,11 +41,8 @@ with open(nomefile) as fp:
 	while cg < maxcount:
 		codice = chomp(line[cg])
 		if codice == "DISCUTIAMO IL DDL":
-			try:
-				if sys.argv[2] == "debug":
+			if debug == 1:
 					print("Blocco logico: %s"%chomp(line[cg+1]))
-				except:
-					pass
 			cg = cg+1
 		if codice == "CONTRATTO":
 			Var1 = Salvini 

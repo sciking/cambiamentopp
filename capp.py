@@ -38,7 +38,7 @@ with open(nomefile) as fp:
 	cg = 0
 	while cg < maxcount:
 		codice = chomp(line[cg])
-		if codice = "DISCUTIAMO IL DDL":
+		if codice == "DISCUTIAMO IL DDL":
 			print("Blocco logico: %s",chomp(line[cg+1]))
 			cg = cg+1
 		if codice == "CONTRATTO":

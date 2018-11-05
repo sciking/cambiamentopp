@@ -21,6 +21,9 @@ La funzione principale viene eseguita all'avvio del software ed è definita dal 
 
 Seppur non essenziale è buona pratica segnalare ogni blocco logico di codice con **DISCUTIAMO IL DDL** oppure **INTERROGAZIONE A RISPOSTA SCRITTA** se il blocco restituisce qualcosa, seguito nella riga successiva dal nome del blocco, a libera scelta.
 
+## Fine del software
+Per chiudere un software si usa la funzione **LA CAMERA APPROVA** per chiudere il programma e **LA CAMERA RESPINGE** per tornare all'inizio.
+
 ## I registri del linguaggio
 Il linguaggio offre built-in otto GPR così denominati:
 * R0: Costa
@@ -67,7 +70,7 @@ Il linguaggio possiede cinque operatori notevoli per ogni variabile di lavoro, e
 * **NON È NEL CONTRATTO**: Conte = 1/Conte
 * **ABBIAMO SALVATO VITE**: Conte = Conte * 2
 * **L'AVVOCATO DEL POPOLO**: Conte = Conte * 10
-* **METTEREMO LA FIDUCIAA**: Conte = Conte^Conte
+* **METTEREMO LA FIDUCIA**: Conte = Conte^Conte
 ### Salvini
 * **LA BOLDRINI**: Salvini = Salvini/2
 * **LA LEVA OBBLIGATORIA**: Salvini = 1/Salvini

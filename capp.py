@@ -97,7 +97,7 @@ with open(nomefile) as fp:
 		elif codice == "SALVINI, LO VUOLE L'ITALIA":
 			print("%s (Salvini)"%Salvini)
 		elif codice == "DI MAIO, LO VUOLE L'ITALIA":
-			print("%s (Di Maio)"%Di Maio)
+			print("%s (Di Maio)"%Di_Maio)
 		elif codice == "CONTE, LO VUOLE L'ITALIA":
 			print("%s (Conte)"%Conte)
 		elif codice == "IL PRESIDENTE DEL CONSIGLIO":

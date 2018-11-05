@@ -10,7 +10,7 @@ try:
 	if sys.argv[2] == "debug":
 		debug = 1
 except:
-	pass
+	debug = 0
 #Dichiarazioni
 Conte = 0
 Di_Maio = 0

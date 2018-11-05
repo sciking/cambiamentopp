@@ -38,7 +38,7 @@ with open(nomefile) as fp:
 	while cg < maxcount:
 		codice = chomp(line[cg])
 		if codice == "DISCUTIAMO IL DDL":
-			print("Blocco logico: %s",chomp(line[cg+1]))
+			print("Blocco logico: %s"%chomp(line[cg+1]))
 			cg = cg+1
 		if codice == "CONTRATTO":
 			Var1 = Salvini 
@@ -110,8 +110,9 @@ with open(nomefile) as fp:
 		elif codice == "METTEREMO LA FIDUCIA":
 			Conte = Conte**Conte
 		else:
-			if sys.argv[2] == "debug":
-				print("Line %s not executed"%int(cg+1))
-			else:
+			try:
+				if sys.argv[2] == "debug":
+					print("Line %s not executed"%int(cg+1))
+			except:
 				pass
 		cg = cg + 1

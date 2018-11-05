@@ -9,6 +9,8 @@ def chomp(x):
 try:
 	if sys.argv[2] == "debug":
 		debug = 1
+	except:
+		pass
 #Dichiarazioni
 Conte = 0
 Di_Maio = 0

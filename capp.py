@@ -41,6 +41,8 @@ with open(nomefile) as fp:
 			try:
 				if sys.argv[2] == "debug":
 					print("Blocco logico: %s"%chomp(line[cg+1]))
+				except:
+					pass
 			cg = cg+1
 		if codice == "CONTRATTO":
 			Var1 = Salvini 

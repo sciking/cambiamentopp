@@ -26,6 +26,11 @@ with open(nomefile) as fp:
 	cg = 0
 	while cg < maxcount:
 		codice = chomp(line[cg])
+		if codice == "CONTRATTO":
+			Var1 = Salvini 
+			Var2 = Di_Maio 
+			Salvini = Var2
+			Di_Maio  = Var1
 		if codice == "BUONGIORNO AMICI":
 			R1 = line[cg+1]
 			cg = int(cg+1)
@@ -35,43 +40,57 @@ with open(nomefile) as fp:
 			Salvini = Conte
 		elif codice == "VICEPREMIER DI MAIO":
 			Di_Maio = Conte
-		elif codice == "GIORGETTI":
+		elif codice == "LA GENTE È STANCA":
 			Conte = Salvini + Di_Maio
-		elif codice == "BORGHI":
+		elif codice == "L'ONESTÀ ANDRÀ DI MODA":
 			Conte = Salvini - Di_Maio
-		elif codice == "BAGNAI":
+		elif codice == "BRUXELLES NON CI SPAVENTA":
 			Conte = Salvini/Di_Maio
-		elif codice == "FOA":
+		elif codice == "REDDITO DI CITTADINANZA":
 			Conte = Salvini**Di_Maio
-		elif codice == "SIRI":
+		elif codice == "I MERCATI SE NE FARANNO UNA RAGIONE":
 			Conte = (Di_Maio**2)-4*(Salvini*Conte)
 			Conte = Conte*random.random()
-		elif codice == "MANOVRA":
-			Di_Maio = Salvini = input(">>>")
-		elif codice == "DIBBA":
+		elif codice == "BISOGNA PENSARE ALLA TRASPARENZA":
 			Conte = Di_Maio*Salvini
 		elif codice == "CASALEGGIO":
 			print("True")
-		elif codice == "MATTARELLA":
+		elif codice == "MATTARELLA FIRMA IL DECRETO":
 			if Conte > 0:
 				pass
 			else:
 				cg = cg + 1
-		elif codice == "VOTA":
+		elif codice == "VOTIAMO IL PROGETTO DI LEGGE":
 			gc = int(line[cg+1])-1
-		elif codice == "MORISI":
+		elif codice == "PRIMA GLI ITALIANI":
 			Rad = 1/Di_Maio
 			Conte = math.pow(Salvini,Rad)
 		elif codice == "MINISTRO SALVINI":
 			Conte = Salvini
 		elif codice == "MINISTRO DI MAIO":
 			Conte = Di_Maio
-		elif codice == "CASALINO":
-			print("%s (Conte)"%Conte)
-		elif codice == "POPULISTA":
+		elif codice == "IL POPOLO CHIEDE SALVINI":
+			Salvini = float(input("(Salvini)>>>"))
+		elif codice == "IL POPOLO CHIEDE DI MAIO":
+			Di_Maio = float(input("(Di Maio)>>>"))
+		elif codice == "IL POPOLO CHIEDE CONTE":
+			Conte = float(input("(Conte)>>>"))
+		elif codice == "SALVINI, LO VUOLE L'ITALIA":
 			print("%s (Salvini)"%Salvini)
-		elif codice == "BLOG":
-			print("%s (Di Maio)"%Di_Maio)
+		elif codice == "DI MAIO, LO VUOLE L'ITALIA":
+			print("%s (Di Maio)"%Di Maio)
+		elif codice == "CONTE, LO VUOLE L'ITALIA":
+			print("%s (Conte)"%Conte)
+		elif codice == "IL PRESIDENTE DEL CONSIGLIO":
+			Conte = Conte/2
+		elif codice == "NON È NEL CONTRATTO":
+			Conte = 1/Conte
+		elif codice == "ABBIAMO SALVATO VITE":
+			Conte = Conte*2
+		elif codice == "L'AVVOCATO DEL POPOLO":
+			Conte = Conte*10
+		elif codice == "METTEREMO LA FIDUCIA":
+			Conte = Conte**Conte
 		else:
 			print("Line %s not executed"%int(cg+1))
 		cg = cg + 1

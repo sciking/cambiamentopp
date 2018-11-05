@@ -23,16 +23,35 @@ print nomefile
 with open(nomefile) as fp:  
 	line = fp.readlines()
 	maxcount = len(line)
+	whereis = 0
+	while whereis < maxcount:
+		codice = chomp(line[whereis])
+		if codice == "ONOREVOLI COLLEGHI":
+			cg = whereis
+			inizio = whereis
+			break
+		else:
+			pass
+with open(nomefile) as fp:  
+	line = fp.readlines()
+	maxcount = len(line)
 	cg = 0
 	while cg < maxcount:
 		codice = chomp(line[cg])
+		if codice = "DISCUTIAMO IL DDL":
+			print("Blocco logico: %s",chomp(line[cg+1]))
+			cg = cg+1
 		if codice == "CONTRATTO":
 			Var1 = Salvini 
 			Var2 = Di_Maio 
 			Salvini = Var2
 			Di_Maio  = Var1
+		if codice == "LA CAMERA APPROVA":
+			exit()
+		if codice == "LA CAMERA RESPINGE":
+			cg = inizio
 		if codice == "BUONGIORNO AMICI":
-			R1 = line[cg+1]
+			R1 = chomp(line[cg+1])
 			cg = int(cg+1)
 		elif codice == "CIAO AMICI":
 			print(R1)

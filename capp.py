@@ -39,7 +39,7 @@ with open(nomefile) as fp:
 		codice = chomp(line[cg])
 		if codice == "DISCUTIAMO IL DDL":
 			try:
-				if sys.argv[2] == debug:
+				if sys.argv[2] == "debug":
 					print("Blocco logico: %s"%chomp(line[cg+1]))
 			cg = cg+1
 		if codice == "CONTRATTO":

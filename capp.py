@@ -38,7 +38,9 @@ with open(nomefile) as fp:
 	while cg < maxcount:
 		codice = chomp(line[cg])
 		if codice == "DISCUTIAMO IL DDL":
-			print("Blocco logico: %s"%chomp(line[cg+1]))
+			try:
+				if sys.argv[2] == debug:
+					print("Blocco logico: %s"%chomp(line[cg+1]))
 			cg = cg+1
 		if codice == "CONTRATTO":
 			Var1 = Salvini 

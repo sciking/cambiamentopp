@@ -35,7 +35,6 @@ with open(nomefile) as fp:
 with open(nomefile) as fp:  
 	line = fp.readlines()
 	maxcount = len(line)
-	cg = 0
 	while cg < maxcount:
 		codice = chomp(line[cg])
 		if codice == "DISCUTIAMO IL DDL":
@@ -111,5 +110,8 @@ with open(nomefile) as fp:
 		elif codice == "METTEREMO LA FIDUCIA":
 			Conte = Conte**Conte
 		else:
-			print("Line %s not executed"%int(cg+1))
+			if sys.argv[2] == "debug":
+				print("Line %s not executed"%int(cg+1))
+			else:
+				pass
 		cg = cg + 1

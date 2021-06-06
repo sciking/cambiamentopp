@@ -2,7 +2,7 @@
 Cambiamento++, il linguaggio di programmazione del cambiamento
 
 ## Come funziona
-Cambiamento++ è un semplice linguaggio di programmazione ispirato alle dinamiche del cosiddetto **Governo del Cambiamento**, in carica in Italia dal 1 giugno 2018, figlio di un'alleanza tra il Movimento 5 Stelle e la Lega - Salvini Premier.
+Cambiamento++ è un semplice linguaggio di programmazione ispirato alle dinamiche del cosiddetto **Governo del Cambiamento**, in carica in Italia dal 1 giugno 2018 al 5 settembre 2019, figlio di un'alleanza tra il Movimento 5 Stelle e la Lega - Salvini Premier.
 
 ## Visione generale
 
